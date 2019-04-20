@@ -292,6 +292,14 @@ ul.icons {
 
 /* Main */
 
+	[data-slides] {
+		background-image: url(../images/scenery/DSC00865.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+		transition: background-image 1s ease-in-out;
+	}
+
 	#main {
 		margin-left: 375px;
 	}
@@ -328,15 +336,15 @@ ul.icons {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
 
-			#main > section.cover {
+			/* #main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
-			}
+			} */
 
 			#main > section.one {
-				background-color: rgba(68, 1, 1, 0.90);
-				background-image: url("../../images/banner.jpg");
+				background-color: rgba(68, 1, 1, 0.70);
+				/* background-image: url("../images/scenery/DSC00865.jpg"); */
 			}
 
 			#main > section.two {
